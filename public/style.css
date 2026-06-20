@@ -1,0 +1,108 @@
+/* ========================================== */
+/* COLORI BASE DEL GRUPPO CAVIRO              */
+/* ========================================== */
+.bg-vino {
+    background-color: #722F37 !important;
+}
+
+.text-vino {
+    color: #722F37 !important;
+}
+
+.btn-vino {
+    background-color: #722F37;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+.btn-vino:hover {
+    background-color: #5a252b;
+    color: white;
+}
+
+/* ========================================== */
+/* EFFETTI DI ANIMAZIONE (HOVER)              */
+/* ========================================== */
+.hover-zoom {
+    transition: transform 0.3s ease;
+}
+
+.hover-zoom:hover {
+    transform: scale(1.03);
+}
+
+.contact-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+/* ========================================== */
+/* STILI VETRINA ECONOMIA CIRCOLARE           */
+/* ========================================== */
+.fade-transition {
+    transition: opacity 0.4s ease-in-out;
+}
+
+.step-menu-item {
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-left: 4px solid transparent;
+}
+
+.step-menu-item:hover {
+    background-color: #f8f9fa;
+    border-left: 4px solid #722F37;
+}
+
+.step-menu-item.active {
+    background-color: #722F37;
+    color: white !important;
+    border-left: 4px solid #5a252b;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.step-menu-item.active .text-muted {
+    color: #e9ecef !important;
+}
+
+/* ========================================== */
+/* STILE UNIVERSALE PER LE COPERTINE (HERO)   */
+/* ========================================== */
+.hero-uniforme {
+    height: 25vh;
+    min-height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+/* ========================================== */
+/* STILE PER IL CAROUSEL DELLA HOME PAGE      */
+/* ========================================== */
+.carousel-img {
+    height: 25vh;
+    min-height: 300px; /* Aggiunto per renderlo identico all'Hero! */
+    object-fit: cover;
+}
+
+/* ========================================== */
+/* SFONDI COPERTINE (HERO) SPECIFICI          */
+/* ========================================== */
+.bg-storia {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('copertina-sedi.avif') center/cover;
+}
+
+.bg-economia {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('foto-campo.avif') center/cover;
+}
+
+.bg-sedi {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('copertina-sedi.avif') center/cover;
+}
